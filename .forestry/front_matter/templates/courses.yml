@@ -1,4 +1,12 @@
 ---
 label: Courses
 hide_body: false
-fields: []
+fields:
+- name: course_content
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Course content
+  hidden: false
